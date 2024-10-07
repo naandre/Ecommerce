@@ -1,15 +1,38 @@
-:root{
+:root {
     --primary-color: #4ada28;
     --secondary-color: #28a3da;
     --backgroud-color: #a2da2851;
 }
 
-body{
+body {
     background-color: var(--backgroud-color);
 }
-h1{
+
+h1 {
     color: var(--secondary-color);
 }
 
-.color-4 {color: #28da5f;}
-.color-5 {color: #28dab8;}
+header {
+    width: 100%;
+    display: flex;
+    padding: 3px 10px;
+    justify-content: space-between;
+}
+
+header>h1 {
+    justify-self: start;
+    align-self: center;
+}
+
+img {
+    max-width: 13%;
+    border-radius: 10px;
+}
+
+.color-4 {
+    color: #28da5f;
+}
+
+.color-5 {
+    color: #28dab8;
+}
