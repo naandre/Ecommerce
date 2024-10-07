@@ -1,0 +1,15 @@
+:root{
+    --primary-color: #4ada28;
+    --secondary-color: #28a3da;
+    --backgroud-color: #a2da2851;
+}
+
+body{
+    background-color: var(--backgroud-color);
+}
+h1{
+    color: var(--secondary-color);
+}
+
+.color-4 {color: #28da5f;}
+.color-5 {color: #28dab8;}
