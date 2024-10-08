@@ -13,15 +13,30 @@ h1 {
 }
 
 header {
-    width: 100%;
+    margin: 1% 5%;
     display: flex;
-    padding: 3px 10px;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
+header>* {
+    padding: 1%;
+}
+
+nav ul {
+    padding: 0;
+}
+
+
+
 header>h1 {
-    justify-self: start;
-    align-self: center;
+    flex-grow: 2;
+    text-align: center;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
 }
 
 img {
