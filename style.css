@@ -1,25 +1,35 @@
 :root {
     --primary-color: #4ada28;
-    --secondary-color: #28a3da;
-    --backgroud-color: #a2da2851;
+    --secondary-color: #f8b274;
+    --backgroud-color: #49a2b0ab;
 }
 
 body {
     background-color: var(--backgroud-color);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin: 0;
 }
 
-h1 {
+/* h1 {
     color: var(--secondary-color);
-}
+} */
 
 header {
-    margin: 1% 5%;
+    width: 100%;
+    margin-right: 5px;
+}
+
+.head {
+    margin: 5px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #74f7de54;
+    border-style: solid;
+    border-radius: 10px;
 }
 
-header>* {
+.head>* {
     padding: 1%;
 }
 
@@ -29,7 +39,7 @@ nav ul {
 
 
 
-header>h1 {
+.head>h1 {
     flex-grow: 2;
     text-align: center;
 }
@@ -50,4 +60,21 @@ img {
 
 .color-5 {
     color: #28dab8;
+}
+
+.login {
+    font-size: 25px;
+    background-color: var(--secondary-color);
+    text-align: right;
+    margin-left: 80%;
+    border-right-width: 0;
+    padding: 5px;
+    border-bottom-left-radius: 20%;
+    border-color: black;
+    border-style: solid;
+}
+
+.login>* {
+    display: flex;
+
 }
